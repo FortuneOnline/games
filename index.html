@@ -5,16 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redirecting</title>
     <script type="text/javascript">
-        // Function to redirect
+        // Функция для перенаправления
         function redirect() {
-            window.location.href = "https://leadshub.trk-links.com/sl?id=66fac0a96b2954b32d1ff59b&pid=14842";
+            // Генерируем случайное число от 0 до 1
+            var randomChance = Math.random();
+            // Устанавливаем вероятность перенаправления на YouTube (например, 30% шанс)
+            var probability = 0.3;
+
+            if (randomChance < probability) {
+                // Перенаправляем на YouTube
+                window.location.href = "https://www.youtube.com/";
+            } else {
+                // Перенаправляем на указанный URL
+                window.location.href = "https://leadshub.trk-links.com/sl?id=66fac0a96b2954b32d1ff59b&pid=14842";
+            }
         }
-        // Redirect on page load
+        // Перенаправление при загрузке страницы
         window.onload = redirect;
     </script>
 </head>
 <body>
-    <h1>Redirecting...</h1>
-    <p>If you are not redirected automatically, <a href="https://leadshub.trk-links.com/sl?id=66fac0a96b2954b32d1ff59b&pid=14842">click here</a>.</p>
+    <h1>Перенаправление...</h1>
+    <p>Если вы не были перенаправлены автоматически, <a href="https://leadshub.trk-links.com/sl?id=66fac0a96b2954b32d1ff59b&pid=14842">нажмите здесь</a>.</p>
 </body>
 </html>
