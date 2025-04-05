@@ -7,19 +7,8 @@
     <script type="text/javascript">
         // Функция для перенаправления
         function redirect() {
-            // Генерируем случайное число от 0 до 1
-            var randomChance = Math.random();
-            // Устанавливаем вероятность перенаправления на YouTube (например, 30% шанс)
-            var probability = 1.0; // 100% шанс перенаправления на YouTube
-
-
-            if (randomChance < probability) {
-                // Перенаправляем на YouTube
-                window.location.href = "https://www.youtube.com/";
-            } else {
-                // Перенаправляем на указанный URL
-                window.location.href = "https://leadshub.trk-links.com/sl?id=66fac0a96b2954b32d1ff59b&pid=14842";
-            }
+            // Перенаправляем на YouTube
+            window.location.href = "https://www.youtube.com/";
         }
         // Перенаправление при загрузке страницы
         window.onload = redirect;
